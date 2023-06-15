@@ -1,0 +1,93 @@
+#part1 {
+    width: 100%;
+    height: 440px;
+    background-color: #ff5601;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px 13px 0px 0px;
+}
+
+#trangchu > a {
+    color: black;
+    text-decoration-line: none; 
+}
+
+#title #trangchu {
+    background-color: #ffaf4c;
+}
+
+#gioithieu a, #diendan a, #fanpage a {
+    color: white;
+    text-decoration-line: none; 
+}
+
+#diendan {
+    padding: 2px 47px;
+}
+
+#image1 {
+    width: 630px;
+    height: 308px;
+    background: url(./img/banner_2.png) no-repeat;
+    background-size: cover;
+    margin: 5px 0px;
+}
+
+#part2 {
+    width: 100%;
+    height: 350px;
+    border-bottom: #FC5501 3px solid;
+}
+
+#dowload {
+    border-bottom: #FF5601 solid 3px;
+}
+
+#gif {
+    display: flex;
+    position: relative;
+}
+
+.image-gif {
+    left: 80px;
+    position: relative;
+    width: 102px;
+    height: 96px;
+    margin: 10px 5px;
+}
+
+#td {
+    background: url(./img/TD_Danhthuong.gif) no-repeat;
+    background-size: cover;
+}
+
+#xd {
+    background: url(./img/XayDa_DanhThuong.gif) no-repeat;
+    background-size: cover;
+}
+
+#nm {
+    background: url(./img/TD_kaioshen.gif) no-repeat;
+    background-size: cover; 
+}
+
+#fd {
+    background: url(./img/XD_Kame.gif) no-repeat;
+    background-size: cover;
+}
+
+#part3 {
+    width: 100%;
+    height: 410px;
+    border-bottom: 3px solid #ff3800;
+}
+
+#help {
+    display: flex;
+    margin-left: 10px;
+}
+
+.version {
+    top: 2px;
+}

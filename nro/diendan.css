@@ -1,0 +1,148 @@
+#part1 {
+    width: 100%;
+    height: 125px;
+    background-color: #ff5601;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px 13px 0px 0px;
+}
+
+#diendan > a {
+    color: black;
+    text-decoration-line: none; 
+}
+
+#title #diendan {
+    background-color: #ffaf4c;
+}
+
+#gioithieu a, #trangchu a, #fanpage a {
+    color: white;
+    text-decoration-line: none; 
+}
+
+#diendan {
+    padding: 2px 47px;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login > li {
+    margin: 10px 10px 0px 0px;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0px 10px;
+    background-color: #F44336;
+}
+
+#login > li:hover {
+    transition: 0.3s;
+    background-color: #4CAF50;
+}
+
+#login > li > a {
+    color: white;
+    text-decoration-line: none;
+    font-family: Roboto-light;
+    font-size: 13px;
+}
+
+.cmt-vip {
+    width: 100%;
+    height: 38px;
+    background-color: #E49637;
+    display: flex;
+    align-items: center;
+}
+
+.avatar1 {
+    width: 25px;
+    height: 30px;
+    background: no-repeat url(./img/avt1.png);
+    background-size: cover;
+}
+
+.avatar2 {
+    width: 25px;
+    height: 30px;
+    background: no-repeat url(./img/avt2.png);
+    background-size: cover;
+}
+
+.avatar3 {
+    width: 25px;
+    height: 30px;
+    background: no-repeat url(./img/avt3.png);
+    background-size: cover;
+}
+
+.gif-new {
+    background: url(./img/new.gif);
+    width: 23px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.gif-vip {
+    background: url(./img/vip.gif);
+    width: 23px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.infomation {
+    cursor: pointer;
+}
+
+.avatar4 {
+    background: url(./img/avt4.png);
+}
+
+.avatar5 {
+    background: url(./img/avt5.png);
+}
+
+.avatar6 {
+    background: url(./img/avt6.png);
+}
+
+.avatar7 {
+    background: url(./img/avt7.png);
+}
+
+.avt {
+    width: 30px;
+    height: 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cmt-th {
+    display: flex;
+    width: 100%;
+    height: 38px;
+}
+
+.select-cmt {
+    display: flex;
+    flex-direction: column;
+}
+
+.tg {
+    font-family: Roboto-thin;
+    font-size: 10px;
+    margin-left: 10px;
+    color:#796666;
+}
+
+.infomation-cmt {
+    font-family: Roboto-light;
+    font-size: 13px;
+    margin-left: 10px;
+    color: #B3480B;
+}

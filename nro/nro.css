@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Roboto-thin;
+    src: url(./font/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(./font/Roboto-Light.ttf);
+}
+
+#background {
+    background-color: #B3AFAF;
+    width: 100%;
+    height: 1800px;
+    padding-bottom: 30px;
+}
+#warning {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#image-warning {
+    width: 15px;
+    height: 15px;
+    background: url(./img/12.png);
+    background-size: cover;
+    margin: 0px 5px;
+}
+
+#warning h5 {
+    font-family: Roboto-light;
+}
+
+#home {
+    width: 640px;
+    height: 1500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    background-color: #FFAF4C;
+}
+
+#part1 {
+    width: 100%;
+    height: 440px;
+    background-color: #ff5601;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px 13px 0px 0px;
+}
+
+#logo {
+    width: 261px;
+    height: 100px;
+    background: url(./img/logoW.png);
+    cursor: pointer;
+}
+
+#title > li {
+    display: inline-block;
+    padding: 2px 42px;
+    background-color: #924C31;
+    color: white;
+    font-size: 15px;
+    font-family: Roboto-light;
+    cursor: pointer;
+    
+}
+
+#title > li:hover {
+    text-decoration-line: underline;
+}
+
+#title #trangchu {
+    background-color: #ffaf4c;
+    color: black;
+}
+
+#image1 {
+    width: 630px;
+    height: 308px;
+    background: url(./img/banner_2.png) no-repeat;
+    background-size: cover;
+    margin: 5px 0px;
+}
+
+#dowload {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFAF4C;
+    border-bottom: #FF5601 solid 3px;
+}
+
+.icon {
+    width: 78px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 5px;
+}
+
+.icon > h4 {
+    font-family: Roboto-light;
+    font-size: 11px;
+    position: relative;
+    top: 38px;
+}
+
+#java {
+    background: url(./img/jar.png) no-repeat; 
+    background-size: cover;
+}
+#pc {
+    background: url(./img/pc.png) no-repeat; 
+    background-size: cover;
+}
+#napngoc {
+    background: url(./img/napngoc.png) no-repeat; 
+    background-size: cover;
+    flex-direction: column;
+}
+#iphone {
+    background: url(./img/ip.png) no-repeat; 
+    background-size: cover;
+}
+#ggplay {
+    background: url(./img/play.png) no-repeat; 
+    background-size: cover;
+}
+#apk {
+    background: url(./img/android.png) no-repeat; 
+    background-size: cover;
+    flex-direction: column;
+}
+
+#apk > .number {
+    margin-left: 30px;
+}
+
+#apk > h4 {
+    position: relative;
+    top: 34px;
+}
+
+.number {
+    color: #D1323F;
+}
+
+.version {
+    color: #bb5719;
+    cursor: pointer;
+}
+
+#part2 {
+    width: 100%;
+    height: 350px;
+    border-bottom: #FC5501 3px solid;
+}
+
+.title {
+    font-size: 17px;
+    font-family: Roboto-light;
+    color: #E73D00;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #B98A51 ;
+}
+
+.infomation {
+    font-family: Roboto-thin;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.infomation1 {
+    font-family: Roboto-light;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+#gif {
+    display: flex;
+    position: relative;
+}
+
+.image-gif {
+    left: 80px;
+    position: relative;
+    width: 102px;
+    height: 96px;
+    margin: 10px 5px;
+}
+
+#td {
+    background: url(./img/TD_Danhthuong.gif) no-repeat;
+    background-size: cover;
+}
+
+#xd {
+    background: url(./img/XayDa_DanhThuong.gif) no-repeat;
+    background-size: cover;
+}
+
+#nm {
+    background: url(./img/TD_kaioshen.gif) no-repeat;
+    background-size: cover; 
+}
+
+#fd {
+    background: url(./img/XD_Kame.gif) no-repeat;
+    background-size: cover;
+}
+
+#part3 {
+    width: 100%;
+    height: 410px;
+    border-bottom: 3px solid #ff3800;
+}
+
+#help {
+    display: flex;
+    margin-left: 10px;
+}
+
+#part5 {
+    background: #ff5601;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer {
+    position: relative;
+    width: 60%;
+    padding: 10px 0px;
+    font-size: 10px;
+}

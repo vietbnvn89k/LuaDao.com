@@ -1,0 +1,134 @@
+#part1 {
+    width: 100%;
+    height: 100%;
+    background-color: #FF5601;
+    border-radius: 10px 10px 0px 0px;
+}
+#logo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#title {
+    margin-left: 3px;
+}
+
+#title > li > a {
+    color: #F4EDEB;
+    text-decoration: none;
+}
+
+#title2 {
+    display: flex;
+}
+
+#title2 > li {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 5px;
+    font-family: Roboto-light;
+    color: #F4EDEB;
+    font-size: 13px;
+}
+
+#diendan {
+    padding: 0px 45px;
+    border: solid 3px #FFAF4D;
+}
+
+#dmk {
+    background-color: #FF5601;
+}
+
+#dmk.open {
+    background-color: #924C31;
+}
+
+#qmk {
+    background-color: #924C31;
+}
+
+#qmk.remove {
+    background-color: #FF5601;
+}
+
+#part2 {
+    width: 100%;
+    height: 300px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: relative;
+}
+
+#part2.remove {
+    display: none;
+}
+
+.h2 {
+    font-size: 14px;
+    font-family: Roboto-light;
+    line-height: 20px;
+}
+
+#part2 > div {
+    display: flex; 
+    position: relative;
+    margin-top: 15px;
+}
+
+.input {
+    position: absolute;
+    left: 160px;
+    top: -4px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 0px;
+}
+
+#mxn h2{
+    position: relative;
+    top: 30px;
+}
+
+#mxn div {
+    position: absolute;
+    left: 53px;
+}
+
+#part2 h1 {
+    bottom: 30px;
+}
+
+.h1 {
+    position: absolute;
+    left: 33%;
+    padding: 15px 13px;
+    transform: translateX(-50%);
+    font-family: Roboto-light;
+    font-size: 13px;
+    background-color: #F44336;
+    color: whitesmoke;
+}
+
+#part3 {
+    display: none;
+    height: 200px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#part3.open {
+    display: block;
+}
+
+#email2 {
+    margin-top: 5px;
+    position: relative;
+}
+
+#part3 h1 {
+    bottom: 25px;
+    left: 225px;
+}
