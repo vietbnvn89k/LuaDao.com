@@ -110,6 +110,11 @@
     font-size: 13px;
     background-color: #F44336;
     color: whitesmoke;
+    cursor: pointer;
+}
+
+.h1:hover {
+    background-color: #CCCCCC;
 }
 
 #part3 {
