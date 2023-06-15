@@ -88,6 +88,10 @@
     margin-left: 10px;
 }
 
-.version {
+#dowload .version {
+    top: 38px;
+}
+
+#help .version {
     top: 2px;
 }
